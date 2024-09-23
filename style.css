@@ -245,3 +245,33 @@ span{
     border: 2rem solid var(--bg-color);
     transition: 5s ease;
 }
+.heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+    margin-bottom: 1.8rem;
+    /* overflow: hidden; */
+}
+.skills{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 75rem;
+    margin: 1.8rem auto;
+
+}
+.skill-progress{
+    height: .8rem;
+    border-radius: 50px;
+    overflow: hidden;
+    background: linear-gradient(to right, rgba(255,255,255,.1), transparent);
+
+}
+.title{
+    font-size: clamp(1.6rem, 4vw , 2rem) ;
+    color: var(--first-text-color);
+
+}
